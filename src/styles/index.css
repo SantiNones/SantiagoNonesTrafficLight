@@ -23,16 +23,26 @@
   margin: 0.5rem 0;
   border-radius: 50%;
   background-color: black;
+  position: relative;
+  transition: background-color 0.3 ease, box-shadow 0.3 ease;
+  cursor: pointer; 
 }
 
 .light.red {
   background-color: red;
+  box-shadow: 0 0 15px 3px #ff4747, 0 0 30px 10px rgba(255, 71, 71, 0.5);
 }
 
 .light.yellow {
   background-color: yellow;
+  box-shadow: 0 0 15px 3px #f7b731, 0 0 30px 10px rgba(247, 183, 49, 0.5);
 }
 
 .light.green {
   background-color: green;
+  box-shadow: 0 0 15px 3px #2ecc71, 0 0 30px 10px rgba(46, 204, 113, 0.5);
+}
+
+button:hover {
+  background-color: #2980b9;
 }
